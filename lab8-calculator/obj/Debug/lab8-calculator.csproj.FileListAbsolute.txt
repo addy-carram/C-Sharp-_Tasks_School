@@ -1,0 +1,12 @@
+D:\colegiu\anul3\c#\lab8-calculator\bin\Debug\lab8-calculator.exe.config
+D:\colegiu\anul3\c#\lab8-calculator\bin\Debug\lab8-calculator.exe
+D:\colegiu\anul3\c#\lab8-calculator\bin\Debug\lab8-calculator.pdb
+D:\colegiu\anul3\c#\lab8-calculator\obj\Debug\lab8-calculator.csproj.AssemblyReference.cache
+D:\colegiu\anul3\c#\lab8-calculator\obj\Debug\lab8_calculator.Form1.resources
+D:\colegiu\anul3\c#\lab8-calculator\obj\Debug\lab8_calculator.Properties.Resources.resources
+D:\colegiu\anul3\c#\lab8-calculator\obj\Debug\lab8_calculator.UserControl1.resources
+D:\colegiu\anul3\c#\lab8-calculator\obj\Debug\lab8-calculator.csproj.GenerateResource.cache
+D:\colegiu\anul3\c#\lab8-calculator\obj\Debug\lab8-calculator.csproj.CoreCompileInputs.cache
+D:\colegiu\anul3\c#\lab8-calculator\obj\Debug\lab8-calculator.exe
+D:\colegiu\anul3\c#\lab8-calculator\obj\Debug\lab8-calculator.pdb
+D:\colegiu\anul3\c#\lab8-calculator\obj\Debug\lab8-calculator.exe.config

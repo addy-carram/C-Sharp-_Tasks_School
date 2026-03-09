@@ -1,0 +1,11 @@
+D:\colegiu\anul3\c#\calculator of age\bin\Debug\calculator of age.exe.config
+D:\colegiu\anul3\c#\calculator of age\bin\Debug\calculator of age.exe
+D:\colegiu\anul3\c#\calculator of age\bin\Debug\calculator of age.pdb
+D:\colegiu\anul3\c#\calculator of age\obj\Debug\calculator of age.csproj.AssemblyReference.cache
+D:\colegiu\anul3\c#\calculator of age\obj\Debug\calculator_of_age.Form1.resources
+D:\colegiu\anul3\c#\calculator of age\obj\Debug\calculator_of_age.Properties.Resources.resources
+D:\colegiu\anul3\c#\calculator of age\obj\Debug\calculator of age.csproj.GenerateResource.cache
+D:\colegiu\anul3\c#\calculator of age\obj\Debug\calculator of age.csproj.CoreCompileInputs.cache
+D:\colegiu\anul3\c#\calculator of age\obj\Debug\calculator of age.exe
+D:\colegiu\anul3\c#\calculator of age\obj\Debug\calculator of age.pdb
+D:\colegiu\anul3\c#\calculator of age\obj\Debug\calculator of age.exe.config
