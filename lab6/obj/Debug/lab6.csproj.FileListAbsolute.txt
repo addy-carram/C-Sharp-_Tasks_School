@@ -1,0 +1,11 @@
+D:\colegiu\anul3\c#\lab6\bin\Debug\lab6.exe.config
+D:\colegiu\anul3\c#\lab6\bin\Debug\lab6.exe
+D:\colegiu\anul3\c#\lab6\bin\Debug\lab6.pdb
+D:\colegiu\anul3\c#\lab6\obj\Debug\lab6.csproj.AssemblyReference.cache
+D:\colegiu\anul3\c#\lab6\obj\Debug\lab6.Form1.resources
+D:\colegiu\anul3\c#\lab6\obj\Debug\lab6.Properties.Resources.resources
+D:\colegiu\anul3\c#\lab6\obj\Debug\lab6.csproj.GenerateResource.cache
+D:\colegiu\anul3\c#\lab6\obj\Debug\lab6.csproj.CoreCompileInputs.cache
+D:\colegiu\anul3\c#\lab6\obj\Debug\lab6.exe
+D:\colegiu\anul3\c#\lab6\obj\Debug\lab6.pdb
+D:\colegiu\anul3\c#\lab6\obj\Debug\lab6.exe.config
