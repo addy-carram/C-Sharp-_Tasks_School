@@ -1,0 +1,12 @@
+D:\colegiu\anul3\c#\lab111\bin\Debug\lab111.exe.config
+D:\colegiu\anul3\c#\lab111\bin\Debug\lab111.exe
+D:\colegiu\anul3\c#\lab111\bin\Debug\lab111.pdb
+D:\colegiu\anul3\c#\lab111\obj\Debug\lab111.csproj.AssemblyReference.cache
+D:\colegiu\anul3\c#\lab111\obj\Debug\lab111.Form1.resources
+D:\colegiu\anul3\c#\lab111\obj\Debug\lab111.Properties.Resources.resources
+D:\colegiu\anul3\c#\lab111\obj\Debug\lab111.csproj.GenerateResource.cache
+D:\colegiu\anul3\c#\lab111\obj\Debug\lab111.csproj.CoreCompileInputs.cache
+D:\colegiu\anul3\c#\lab111\obj\Debug\lab111.exe
+D:\colegiu\anul3\c#\lab111\obj\Debug\lab111.pdb
+D:\colegiu\anul3\c#\lab111\obj\Debug\lab111.exe.config
+D:\colegiu\anul3\c#\lab111\obj\Debug\lab111.Form2.resources
