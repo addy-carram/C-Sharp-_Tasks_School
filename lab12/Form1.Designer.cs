@@ -30,29 +30,33 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.cititorBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bibliotecaDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bibliotecaDataSet = new lab12.BibliotecaDataSet();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bibliotecaDataSet = new lab12.BibliotecaDataSet();
-            this.bibliotecaDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.carteBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.carteTableAdapter = new lab12.BibliotecaDataSetTableAdapters.CarteTableAdapter();
             this.chirieBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.chirieTableAdapter = new lab12.BibliotecaDataSetTableAdapters.ChirieTableAdapter();
-            this.cititorBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.cititorTableAdapter = new lab12.BibliotecaDataSetTableAdapters.CititorTableAdapter();
+            this.chirieBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.cititorBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.idcititorDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.numeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.prenumeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bibliotecaDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cititorBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bibliotecaDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bibliotecaDataSet)).BeginInit();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carteBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chirieBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cititorBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chirieBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cititorBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -72,6 +76,21 @@
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
+            // cititorBindingSource
+            // 
+            this.cititorBindingSource.DataMember = "Cititor";
+            this.cititorBindingSource.DataSource = this.bibliotecaDataSetBindingSource;
+            // 
+            // bibliotecaDataSetBindingSource
+            // 
+            this.bibliotecaDataSetBindingSource.DataSource = this.bibliotecaDataSet;
+            this.bibliotecaDataSetBindingSource.Position = 0;
+            // 
+            // bibliotecaDataSet
+            // 
+            this.bibliotecaDataSet.DataSetName = "BibliotecaDataSet";
+            this.bibliotecaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(179, 35);
@@ -80,6 +99,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Afiseaza";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -89,6 +109,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Insereaza";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // button3
             // 
@@ -98,6 +119,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "Sterge ";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // button4
             // 
@@ -107,6 +129,7 @@
             this.button4.TabIndex = 4;
             this.button4.Text = "Actualizeaza";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // panel1
             // 
@@ -118,16 +141,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(847, 731);
             this.panel1.TabIndex = 5;
-            // 
-            // bibliotecaDataSet
-            // 
-            this.bibliotecaDataSet.DataSetName = "BibliotecaDataSet";
-            this.bibliotecaDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // bibliotecaDataSetBindingSource
-            // 
-            this.bibliotecaDataSetBindingSource.DataSource = this.bibliotecaDataSet;
-            this.bibliotecaDataSetBindingSource.Position = 0;
             // 
             // carteBindingSource
             // 
@@ -147,14 +160,19 @@
             // 
             this.chirieTableAdapter.ClearBeforeFill = true;
             // 
-            // cititorBindingSource
-            // 
-            this.cititorBindingSource.DataMember = "Cititor";
-            this.cititorBindingSource.DataSource = this.bibliotecaDataSetBindingSource;
-            // 
             // cititorTableAdapter
             // 
             this.cititorTableAdapter.ClearBeforeFill = true;
+            // 
+            // chirieBindingSource1
+            // 
+            this.chirieBindingSource1.DataMember = "Chirie";
+            this.chirieBindingSource1.DataSource = this.bibliotecaDataSetBindingSource;
+            // 
+            // cititorBindingSource1
+            // 
+            this.cititorBindingSource1.DataMember = "Cititor";
+            this.cititorBindingSource1.DataSource = this.bibliotecaDataSetBindingSource;
             // 
             // idcititorDataGridViewTextBoxColumn
             // 
@@ -191,12 +209,14 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bibliotecaDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cititorBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bibliotecaDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bibliotecaDataSet)).EndInit();
+            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.carteBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chirieBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cititorBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chirieBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cititorBindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -217,9 +237,11 @@
         private BibliotecaDataSetTableAdapters.ChirieTableAdapter chirieTableAdapter;
         private System.Windows.Forms.BindingSource cititorBindingSource;
         private BibliotecaDataSetTableAdapters.CititorTableAdapter cititorTableAdapter;
+        private System.Windows.Forms.BindingSource chirieBindingSource1;
         private System.Windows.Forms.DataGridViewTextBoxColumn idcititorDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn numeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn prenumeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource cititorBindingSource1;
     }
 }
 

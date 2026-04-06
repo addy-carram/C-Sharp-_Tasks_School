@@ -8,3 +8,8 @@ D:\colegiu\anul3\c#\lab12\obj\Debug\lab12-Library app.csproj.GenerateResource.ca
 D:\colegiu\anul3\c#\lab12\obj\Debug\lab12-Library app.csproj.CoreCompileInputs.cache
 D:\colegiu\anul3\c#\lab12\obj\Debug\lab12.exe
 D:\colegiu\anul3\c#\lab12\obj\Debug\lab12.pdb
+D:\colegiu\anul3\c#\lab12\obj\Debug\lab12.exe.config
+D:\colegiu\anul3\c#\lab12\obj\Debug\lab12.Form2.resources
+D:\colegiu\anul3\c#\lab12\obj\Debug\lab12.Form3.resources
+D:\colegiu\anul3\c#\lab12\obj\Debug\lab12.Form4.resources
+D:\colegiu\anul3\c#\lab12\obj\Debug\lab12.Form5.resources
