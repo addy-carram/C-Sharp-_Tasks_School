@@ -1,0 +1,21 @@
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\bin\Debug\net8.0-windows\WPF Project.exe
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\bin\Debug\net8.0-windows\WPF Project.deps.json
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\bin\Debug\net8.0-windows\WPF Project.runtimeconfig.json
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\bin\Debug\net8.0-windows\WPF Project.dll
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\bin\Debug\net8.0-windows\WPF Project.pdb
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\obj\Debug\net8.0-windows\App.g.cs
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\obj\Debug\net8.0-windows\WPF Project_MarkupCompile.cache
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\obj\Debug\net8.0-windows\WPF Project_MarkupCompile.lref
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\obj\Debug\net8.0-windows\MainWindow.baml
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\obj\Debug\net8.0-windows\WPF Project.g.resources
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\obj\Debug\net8.0-windows\WPF Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\obj\Debug\net8.0-windows\WPF Project.AssemblyInfoInputs.cache
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\obj\Debug\net8.0-windows\WPF Project.AssemblyInfo.cs
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\obj\Debug\net8.0-windows\WPF Project.csproj.CoreCompileInputs.cache
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\obj\Debug\net8.0-windows\WPF Project.sourcelink.json
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\obj\Debug\net8.0-windows\WPF Project.dll
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\obj\Debug\net8.0-windows\refint\WPF Project.dll
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\obj\Debug\net8.0-windows\WPF Project.pdb
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\obj\Debug\net8.0-windows\WPF Project.genruntimeconfig.cache
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\WPF Project\obj\Debug\net8.0-windows\ref\WPF Project.dll
