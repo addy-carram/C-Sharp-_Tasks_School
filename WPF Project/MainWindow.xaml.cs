@@ -19,6 +19,7 @@ namespace WPF_Project
         public MainWindow()
         {
             InitializeComponent();
+            rezult.Content = "Click on Calculate";
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -40,28 +41,77 @@ namespace WPF_Project
                 MessageBox.Show(" Enter a valid number");
                 return;
             }
-            switch (combo.SelectedItem.ToString()) {
+            if (combo.SelectedItem == null)
+            {
+                MessageBox.Show("Please select an operation (Plus, Minus, etc.)");
+                return;
+            }
+
+
+            var selectedItem = (ComboBoxItem)combo.SelectedItem;
+            switch (selectedItem.Content.ToString()) {
                 case "Plus":
                     {
-                        rezult.Content = (nr1 + nr2).ToString();
-                        break;
+                        rezult.Content = "The sum is "+(nr1 + nr2).ToString();
                     }
+                    break;
                 case "Minus":
                     {
-                        rezult.Content = (nr1 - nr2).ToString();
+                        rezult.Content = "The answer is " + (nr1 - nr2).ToString();
                         break;
                     }
                 case "Multiplication":
                     {
-                        rezult.Content = (nr1 * nr2).ToString();
+                        rezult.Content = "The product is " + (nr1 * nr2).ToString();
                         break;
                     }
-                case "Divider":
+                case "Division":
                     {
-                        rezult.Content = (nr1 / nr2).ToString();
+                        rezult.Content = "The answer is " + (nr1 / nr2).ToString();
                         break;
                     }
             }
+            // Use Keyboard.FocusedElement instead of FocusManager
+            IInputElement focusedElement = Keyboard.FocusedElement;
+
+            if (focusedElement == text1 || focusedElement == text2 || focusedElement == combo)
+            {
+                eraseTextBox();
+            }
+
+        }
+        private void eraseTextBox()
+        {
+            text1.Text = "";
+            text2.Text = "";
+            rezult.Content = "";
+        }
+        private void combo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if(rezult!=null)
+            rezult.Content = "Click on Calculate";
+
+        }
+
+        private void text1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            rezult.Content = "Click on Calculate";
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            eraseTextBox();
+        }
+
+        private void text2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            rezult.Content = "Click on Calculate";
+        }
+
+        private void Login_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
             
         }
     }

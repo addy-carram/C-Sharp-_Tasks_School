@@ -7,22 +7,33 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel HorizontalAlignment="Center" Height="242" VerticalAlignment="Center" Width="282">
+        <StackPanel HorizontalAlignment="Left" Height="242" VerticalAlignment="Top" Width="282" Margin="90,95,0,0">
             <Label Content="Select the operation" HorizontalAlignment="Center" Width="130"/>
-            <ComboBox x:Name="combo" Width="120" HorizontalAlignment="Center">
-                <ComboBoxItem Content="Plus"/>
-                <ComboBoxItem Content="Minus"/>
-                <ComboBoxItem Content="Multiplication"/>
-                <ComboBoxItem Content="Division"/>
+            <ComboBox x:Name="combo" Width="120" HorizontalAlignment="Center" SelectionChanged="combo_SelectionChanged" Text="Divider">
+                <ComboBoxItem Content="Plus" IsSelected="True"/>
+                <ComboBoxItem Content="Minus" IsSelected="True"/>
+                <ComboBoxItem Content="Multiplication" IsSelected="True"/>
+                <ComboBoxItem Content="Division" IsSelected="True"/>
             </ComboBox>
             <Label Content="Number 1" HorizontalAlignment="Center" Width="130"/>
-            <TextBox x:Name="text1" TextWrapping="Wrap" Width="120"/>
+            <TextBox x:Name="text1" TextWrapping="Wrap" Width="120" TextChanged="text1_TextChanged"/>
             <Label Content="Number2" HorizontalAlignment="Center" Width="130"/>
-            <TextBox x:Name="text2" TextWrapping="Wrap" Width="120"/>
-            <Button x:Name="Button" Content="Button" Height="40" HorizontalAlignment="Center" Width="150" Margin="0,20,0,0" Click="Button_Click"/>
+            <TextBox x:Name="text2" TextWrapping="Wrap" Width="120" TextChanged="text2_TextChanged"/>
+            <Button x:Name="Button" Content="Calculate" Height="40" HorizontalAlignment="Center" Width="150" Margin="0,20,0,0" Click="Button_Click"/>
+            <PasswordBox Width="120"/>
         </StackPanel>
-        <Label Content="Calculator" HorizontalAlignment="Left" Margin="340,69,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="rezult" Content="The rezult is" HorizontalAlignment="Center" Margin="0,343,0,0" VerticalAlignment="Top" Width="154"/>
+        <Label Content="Calculator" HorizontalAlignment="Left" Margin="199,64,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="rezult" Content="" HorizontalAlignment="Center" Margin="0,343,0,0" VerticalAlignment="Top" Width="154"/>
+        <Button x:Name="Clear" Content="Clear
+" Margin="323,77,423,306" Click="Button_Click_1"/>
+        <StackPanel HorizontalAlignment="Left" Height="168" Margin="492,103,0,0" VerticalAlignment="Top" Width="214">
+            <Label Content="Name" HorizontalAlignment="Center" Width="118"/>
+            <TextBox TextWrapping="Wrap" Width="120" HorizontalAlignment="Center" Margin="0,5,0,5"/>
+            <Label Content="Password" HorizontalAlignment="Center" Width="120"/>
+            <PasswordBox Width="120" Margin="0,5,0,0"/>
+            <Button x:Name="Login" Content="Login" Width="150" HorizontalAlignment="Center" Margin="0,20,0,0" Height="27" Click="Login_Click"/>
+        </StackPanel>
+        <Label Content="Login" HorizontalAlignment="Left" Margin="579,64,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
