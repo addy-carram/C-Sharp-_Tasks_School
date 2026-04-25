@@ -1,0 +1,11 @@
+D:\colegiu\anul3\c#\lab13\bin\Debug\lab13.exe.config
+D:\colegiu\anul3\c#\lab13\bin\Debug\lab13.exe
+D:\colegiu\anul3\c#\lab13\bin\Debug\lab13.pdb
+D:\colegiu\anul3\c#\lab13\obj\Debug\lab13.csproj.AssemblyReference.cache
+D:\colegiu\anul3\c#\lab13\obj\Debug\lab13.Form1.resources
+D:\colegiu\anul3\c#\lab13\obj\Debug\lab13.Properties.Resources.resources
+D:\colegiu\anul3\c#\lab13\obj\Debug\lab13.csproj.GenerateResource.cache
+D:\colegiu\anul3\c#\lab13\obj\Debug\lab13.csproj.CoreCompileInputs.cache
+D:\colegiu\anul3\c#\lab13\obj\Debug\lab13.exe
+D:\colegiu\anul3\c#\lab13\obj\Debug\lab13.pdb
+D:\colegiu\anul3\c#\lab13\obj\Debug\lab13.exe.config
