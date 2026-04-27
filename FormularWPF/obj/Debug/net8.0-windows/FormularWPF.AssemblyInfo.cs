@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("WPF Project")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("FormularWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f0976c198609cee402d7b5b2808888672d2c60f")]
-[assembly: System.Reflection.AssemblyProductAttribute("WPF Project")]
-[assembly: System.Reflection.AssemblyTitleAttribute("WPF Project")]
+[assembly: System.Reflection.AssemblyProductAttribute("FormularWPF")]
+[assembly: System.Reflection.AssemblyTitleAttribute("FormularWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

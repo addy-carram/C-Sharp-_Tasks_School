@@ -1,0 +1,11 @@
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\final lab\bin\Debug\final lab.exe.config
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\final lab\bin\Debug\final lab.exe
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\final lab\bin\Debug\final lab.pdb
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\final lab\obj\Debug\final lab.csproj.AssemblyReference.cache
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\final lab\obj\Debug\final_lab.Properties.Resources.resources
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\final lab\obj\Debug\final lab.csproj.GenerateResource.cache
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\final lab\obj\Debug\final lab.csproj.CoreCompileInputs.cache
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\final lab\obj\Debug\final lab.exe
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\final lab\obj\Debug\final lab.pdb
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\final lab\obj\Debug\final lab.exe.config
+D:\colegiu\anul3\c#\c#-GIT\C-_Tasks_School\final lab\obj\Debug\final_lab.Form1.resources

@@ -114,6 +114,12 @@ namespace lab13
         {
             try
             {
+                using (SqlConnection conn = new SqlConnection())
+                {
+                    conn.Open();
+                    SqlCommand query= new SqlCommand(@"Insert INTO Pupils(ID_Pupil,first_name,last_name,d_birth,email,phone,id_class) Values(@ID_Pupil,@first_name,@last_name,@d_birth,@email,@phone,@id_class",conn)
+
+                }
 
             }catch(Exception ex)
             {
